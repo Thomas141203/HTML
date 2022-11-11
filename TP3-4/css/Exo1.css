@@ -1,0 +1,15 @@
+table{
+    border: solid blue 3px;
+    border-spacing: 10px;
+    text-align: center;
+}
+th{
+    border: solid blue 1px;
+    width: 5px;
+}
+#id1{
+    font-weight: bold;
+}
+td{
+    border: solid blue 1px;
+}

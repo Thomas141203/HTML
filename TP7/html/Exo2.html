@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Exercice 2</title>
+		<link rel='stylesheet' type='text/css' href='../css/Exo2.css'/>
+        <script src="../js/Exo2.js"></script>
+	</head>
+	
+	<body>
+        <canvas width="500" height="300" id="id1"></canvas>
+        <form id="form1">
+            <fieldset>
+                <legend>Choix du drapeau</legend>
+                <input type="radio" name="identique" id="france" onclick="init();" checked>
+                <label for="france">La France</label>
+                <br/>
+                <input type="radio" name="identique" id="italie" onclick="ModifIt();">
+                <label for="italie">L'Italie</label>
+                <br/>
+                <input type="radio" name="identique" id="belgique" onclick="ModifBe();">
+                <label for="belgique">La Belgique</label>
+                <br/>
+                <button>Choix modification drapeau</button>
+            </fieldset>
+        </form>
+	</body>
+</html>

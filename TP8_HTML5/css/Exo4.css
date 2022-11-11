@@ -1,0 +1,23 @@
+#requis{
+    border: solid blue 5px;
+}  
+#falcutatif{
+     border: inset 2px;
+}
+#mail{
+    border: solid green 3px;
+} 
+#url{
+    border: dotted red 3px;
+}  
+#nombre{
+    width: 25px;
+    border: dotted red 3px;
+}  
+label, input{
+    margin-right: 50px;
+    display: inline-block;
+} 
+#postale{
+    content: "adresse, code postal, ville";
+} 

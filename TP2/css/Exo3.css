@@ -1,0 +1,30 @@
+body{
+    background-color: yellow;
+}
+h1{
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+h2{
+    background-color: limegreen;
+    color: red;
+}
+#id1{
+    font-weight: bold;
+    color: red;
+    list-style-type: lower-roman;
+}
+#id2{
+    font-weight: lighter;
+    color: blue;
+    list-style-type: lower-greek;
+}
+#id3{
+    color: red;
+}
+#id4{
+    text-decoration: underline;
+    font-weight: bold;
+}

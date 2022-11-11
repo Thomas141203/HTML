@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>calcul des impôts </title>
+        <link rel="stylesheet" type="text/css" href="../css/Exo8.css" />
+        <script type="text/javascript" src="../js/Exo8.js">
+        </script>
+    </head>
+    <body onload="init()">
+        <h1>Calculer votre impôt sur le revenu</h1>
+        <div>
+        <br/>
+        <table>
+            <tr>
+                <td colspan ="3">Barème 2015 de l'impôt sur le revenu en fonction du nombre de parts de quotient familial</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Tranche du revenu net imposable (en €)
+            </td>
+                <td rowspan="2">Taux marginal d'imposition</td>
+                <td id="bas">Formule de calcul de l'impôt</td>
+            </tr>
+            <tr>
+                <td id="haut">(R = revenu, N = nombre de parts)</td>
+            </tr>
+            <tr>
+                <td>Jusqu'à 9 690</td>
+                <td>0%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>de 9 690 à 26 764</td>
+                <td>14%</td>
+                <td>(R&times;0.14)-(1 356.60&times;N)</td>
+            </tr>
+            <tr>
+                <td>de 26 764 à 71 754</td>
+                <td>30%</td>
+                <td>(R&times;0.3)-(5 638.84&times;N)</td>
+            </tr>
+            <tr>
+                <td>de 71 754 à 151 956</td>
+                <td>41%</td>
+                <td>(R&times;0.41)-(13 531.78&times;N)</td>
+            </tr>
+            <tr>
+                <td>PLus de 151 956</td>
+                <td>45%</td>
+                <td>(R&times;0.45)-(19 610.02&times;N)</td>
+            </tr>
+        </table>
+        <p id ="text">Exemple de calcul :</p>
+        <ol>
+            <li>Un couple sans enfant (N = 2) a un revenu imposable R de 54 000 € sans les frais réels à 10%.</li>
+            <li>Il est imposé dans la tranche à 30%.</li>
+            <li>Il faut donc appliquer la formule ((54 000 - 5400)&times; 0,3) - (5638,84 &times; 2) pour connaître le montant de son impôt, soit 3 302 €.</li>
+        </ol>
+        </div>
+        <div id="div2">
+            <form id="form1" method="post" action="mailto:toto@wanadoo.fr" >
+            <p>Entrer le revenu imposable de votre foyer &nbsp;&nbsp;<input type="text"
+            name="netImp"/><br/>
+            Entrer le nombre de parts de votre foyer &nbsp;&nbsp;<input type="text"
+            name="nombre"/><br/><br/>
+            Frais :
+            <select name="fraisReels">
+            <option selected="selected">Choisissez</option>
+            <option> Abattement de 10 %</option>
+            <option> frais réels </option>
+            </select> <br/>
+            <input type="text" name="valeur"/><br/><br/>
+            <input type ="button" value="Afficher" onclick="calcul();" />
+            <input type ="button" value="Remise à zéro" onclick="init();" /><br />
+            </p>
+            </form>
+            </div>
+            <div id="div3">
+            <h3 id="texte">Résultats</h3>
+            <p> En fonction des informations que vous nous avez donné, votre impôt sur le revenu sera de :
+            <span id="res"></span>
+            <br/><br/> Attention ceci n'est qu'une simulation, Les résultats obtenus n’ont qu’une valeur informative et indicative.
+            </p>
+            <br/><br/>
+        </div>
+    </body>
+</html>

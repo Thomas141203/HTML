@@ -1,0 +1,86 @@
+#form2{
+width: 650px;
+background-color: white;
+border : none;
+}
+form {
+width: 650px;
+padding: 0;
+border: solid 1px #4444AA;
+background-color: #e6e6f3;
+}
+form h3 {
+margin: 0 0 1em 0;
+padding: 10px 20px;
+text-align: center;
+background-color: #4444AA;
+color: white;
+}
+form p.blabla {
+margin: 1em 20px 1.5em 20px;
+font-size: .9em;
+color: #448;
+}
+form fieldset {
+margin: 0;
+padding: 0;
+border: none;
+}
+form fieldset legend {
+margin: 0;
+padding: 0;
+font-weight: bold;
+font-style: italic;
+font-size: 1.1em;
+}
+form div.gauche {
+width: 250px;
+margin: 0 0 1em 20px;
+float: left;
+display: inline; /* Ã©vite le Doubled Float-Margin Bug d'IE6 */
+}
+form div.gauche p {
+margin: .5em 0;
+}
+form div.gauche span.label {
+display: block;
+margin-bottom: .2em;
+}
+form div.gauche label {
+font-weight: bold;
+cursor: pointer;
+}
+form div.gauche span.controle {
+display: block;
+}
+form div.droite {
+margin: 0 20px 1em 310px;
+}
+form div.droite span.label {
+display: block;
+font-weight: bold;
+}
+form div.droite span.controle {
+display: block;
+margin: .5em 0 0 30px;
+}
+form div.droite span.controle input.bouton {
+position: absolute;
+margin-left: -30px;
+}
+form div.droite span.controle br {
+display: none;
+}
+form input.text {
+width: 95%;
+border: solid 1px #4444AA;
+padding: 2px 4px;
+}
+form input.text:hover {
+background-color : yellow;
+}
+form p.submit {
+clear: left;
+margin: 1em 20px 1em 310px;
+}
+form p.submit input {font-size: 1.2em;}

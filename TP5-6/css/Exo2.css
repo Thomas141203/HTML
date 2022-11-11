@@ -1,0 +1,31 @@
+#form2{
+    padding-bottom: 30px
+}
+#form3{
+    padding-bottom: 30px;
+    text-align: center;
+}
+#id1{
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 100px;
+}
+span{
+    margin-left: 150px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+fieldset{
+    background-color: yellow;
+    border-color: red;
+}
+#id5{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+#id8{
+    margin: auto;
+}

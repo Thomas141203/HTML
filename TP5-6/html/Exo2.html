@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Exercice 1</title>
+		<link rel='stylesheet' type='text/css' href='../css/Exo2.css'/>
+	</head>
+	
+	<body>
+        <h1>Merci de paye la ou les cotisation(s) selon le(s) sport(s)</h1>
+        <form id="form1" method="post" action="mailto:thomas.moreau@etu-u.bourgogne.fr">
+            <fieldset>
+                <legend>Choix du sport :</legend>
+                <p>
+                    <input type="checkbox" name="handball" id="handball" checked="checked"/>
+                    <label for="handball">Handball</label>
+                <br/>
+                    <input type="checkbox" name="football" id="football"/>
+                    <label for="football">Football</label>
+                <br/>
+                    <input type="checkbox" name="baseball" id="baseball"/>
+                    <label for="baseball">Basseball</label>
+                <br/>
+                    <input type="checkbox" name="basketball" id="basketball" checked="checked"/>
+                    <label for="basketball">Basket-Ball</label>
+                </p>
+            </fieldset>
+        </form>
+        <hr/>
+        <form id="form2" method="post" action="mailto:thomas.moreau@etu-u.bourgogne.fr">
+            <fieldset>
+                <legend id="id5">Paiement par :</legend>
+                <p>
+                    <input type="radio" name="cb" id="cb" checked="checked"/>
+                    <label for="cb">CB</label>
+                
+                    <span></span>
+
+                    <label for="code">Votre code</label>
+                    <input type="text" name="code" id="code"/>
+    
+                <br/>
+                    <input type="radio" name="liquide" id="liquide"/>
+                    <label for="liquide">Liquide</label>
+                <br/>
+                    <input type="radio" name="cheque" id="cheque"/>
+                    <label for="cheque">Chèque</label>
+                </p>
+            </fieldset>
+        </form>
+        <hr/>
+        <form id="form3" method="post" action="mailto:thomas.moreau@etu-u.bourgogne.fr">
+            <fieldset>
+            <legend id="id8">Zone bouton :</legend>
+                <p>
+                    <button>Valider</button>
+                    <button>Effacer</button>
+                </p>
+            </fieldset>
+        </form>
+	</body>
+</html>

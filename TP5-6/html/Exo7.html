@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="../css/Exo7.css" />
+        <script type="text/javascript" src="../js/Exo7.js"></script>
+    </head>
+
+    <body onload="init()">
+        <h1>Composez votre menu de déjeuner</h1>
+        <hr/>
+        <p id="p1">Choisissez une entrée, un plat, un dessert et une boisson, puis appuyez sur le bouton"Prix".</p>
+        <form id="formu" method="post" action="mailto:toto@wanadoo.fr">
+            <table>
+            <tr>
+                <td class='p2'>Entrée</td>
+                <td class='p2'>Plat principal</td><td class='p2'>Dessert</td>
+                <td class='p2'>Boisson</td>
+            </tr>
+            <tr>
+                <td class='p3'>
+                    <select name="p1">
+                        <option selected="selected">Votre choix ?</option>
+                        <option value="12.50">Crudit&eacute;s</option>
+                        <option value="18.00">Pât&eacute; en croute</option>
+                        <option value="09.50">Oeufs Mayo</option>
+                        <option value="24.75">Avocats</option>
+                    </select>
+                </td>
+                <td class='p3'>
+                    <select name="p2">
+                        <option selected="selected">Votre choix ?</option>
+                        <option value="30.00">Steak-Frites</option>
+                        <option value="27.50">Choucroute</option>
+                        <option value="32.50">Cassoulet</option>
+                        <option value="37.00">Couscous</option>
+                    </select>
+                </td>
+                <td class='p3'>
+                    <select name="p3">
+                        <option selected="selected">Votre choix ?</option>
+                        <option value="12.50">Yaourt</option>
+                        <option value="10.00">Fruits</option>
+                        <option value="16.50">Glace</option>
+                        <option value="19.75">Tartelette</option>
+                    </select>
+                </td>
+                <td class='p3'>
+                    <select name="p4">
+                        <option selected="selected">Votre choix ?</option>
+                        <option value="32.50">Chassagne-Montrachet</option>
+                        <option value="25.00">Chablis</option>
+                        <option value="36.50">Vin jaune</option>
+                        <option value="0.">Eau du robinet</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="button" value=" Prix " onclick="calcul();" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <textarea rows="8" cols="60" name="commande" id="commande">Prix du repas :</textarea>
+                </td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+body {/*background-color: #ffc0c0;*/}
+.gr {font-weight: bold;}
+h1, h2 {text-decoration: underline; text-align: center;}
+.it {font-style: italic;}
+#red, #green {width: 80%; height: 12px; margin: 0;}
+#red {background-color: #ff0000;}
+#green {background-color: #00ff00;}
+/*#blc {color: #ffffff;}*/
+div {width: 60%; margin: auto;}
+#img1, #img2, #img3, #img4 {position: absolute;}
+#img1 {top: 0; left: 0;}
+#img2 {top: 0; right: 0;}
+#img3 {bottom: 0; left: 0;}
+#img4 {bottom: 0; right: 0;}

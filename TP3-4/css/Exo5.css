@@ -1,0 +1,33 @@
+table{
+    text-align: center;
+    border: solid blue 4px;
+    font-size: 30px;
+}
+th{
+    border: solid red;
+}
+td{
+    height: 30px;
+    width: 30px;
+    border: solid white 1px;
+}
+body{
+    background-color: fuchsia;
+}
+div{
+    background-color: white;
+}
+.semaine{
+    background-color: lime;
+}
+.week-end{
+    background-color: orange;
+}
+.vide{
+    background-color: silver;
+}
+.annee{
+    font-size: 30px;
+    background-color: cyan;
+    font-weight: bold;
+}

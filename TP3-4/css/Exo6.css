@@ -1,0 +1,37 @@
+table{
+    text-align: center;
+    border: solid blue 4px;
+    font-size: 30px;
+}
+th{
+    border: solid red;
+}
+td{
+    height: 30px;
+    width: 30px;
+    border: solid white 1px;
+}
+body{
+    background-color: fuchsia;
+}
+div{
+    background-color: white;
+}
+.noir{
+    background-color: black;
+}
+.jaune{
+    background-color: yellow;
+}
+.bleu{
+    background-color: blue;
+}
+.vert{
+    background-color: green;
+}
+.rouge{
+    background-color: red;
+}
+.blanc{
+    background-color: white;
+}

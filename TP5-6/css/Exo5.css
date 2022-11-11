@@ -1,0 +1,36 @@
+body{
+    background-image: url(../media/image.jpeg);
+}
+p{
+    color: blue;
+}
+#adresse, #code, #ville{
+    background-color: yellow;
+}
+#adresse{
+    width:800px;
+}
+#ville{
+    width: 500px;
+}
+#valid{
+    color: green;
+}
+#effa{
+    color: white;
+}
+#id5{
+    background-color: yellow;
+}
+#id55{
+    background-color: cyan;
+}
+.class1{
+    background-color: fuchsia;
+}
+#id555{
+    background-color: silver;
+}
+#id5555{
+    background-color: black;
+}

@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+body{
+    background-color: #fa8072;
+}
+.class1{
+    font-weight: bold;
+}
+.class2{
+    font-style: italic;
+}
+.class3{
+    font-style: italic;
+}
+#id2{
+    color: #ffffff;
+}
+#id1{
+    height: 10px;
+    width: 500px;
+    background-color: #ff0000;
+    color: #ff0000;
+}
+#id3{
+    height: 10px;
+    width: 500px;
+    background-color: #00ff00;
+    color: #00ff00;
+}

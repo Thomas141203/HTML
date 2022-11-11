@@ -1,0 +1,46 @@
+h1{
+    margin: auto;
+    text-align: center;
+}
+#id1{
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+table{
+    border: solid;
+    border-collapse: collapse;
+    font-size: 80px;
+}
+td{
+    padding: 0px;
+    border: solid;
+    border-width: 1px;
+}
+table table td{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+button{
+    background-color: yellow;
+}
+.class1{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border-top: solid silver 3px;
+    border-left: silver solid 3px;
+    border-bottom: black solid 3px;
+    border-right: black solid 3px;
+    color: red;
+}
+.class2{
+    margin: auto;
+    display: block;
+    border-top: solid black 3px;
+    border-left: black solid 3px;
+    border-bottom: silver solid 3px;
+    border-right: silver solid 3px;
+    color: blue;
+}

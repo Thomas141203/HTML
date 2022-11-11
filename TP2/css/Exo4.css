@@ -1,0 +1,25 @@
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+ul{
+    counter-reset: Rang;
+}
+li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+li:before{
+    counter-increment: Rang 1;
+    content: "Rang " counter(Rang) " en " counter(Euro);
+}
+div{
+    counter-reset: Euro 1968;
+}
+ul:before{
+    counter-increment: Euro 16;
+    content: "Euro " counter(Euro);
+}
+body{
+    font-style: italic;
+}

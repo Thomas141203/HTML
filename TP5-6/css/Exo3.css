@@ -1,0 +1,38 @@
+body{
+    background-color: #00FFFF;
+}
+#para{
+    margin-left: 50px;
+    font-weight: bold;
+}
+fieldset{
+    width:400px;
+    border: solid grey 3px;
+}
+#milieu{
+    margin-left: 50px;
+    border: solid grey 5px;
+    outline: solid black 2px;
+}
+.class1{
+    background-color: white;
+    color: red;
+    padding: 7px;
+    display: block;
+}
+.class2{
+    margin-left: 50px;
+}
+.class3{
+    background-color: grey;
+}
+#centre{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#id2{
+    margin-left: 100px;
+}
+#id3{
+    margin-top: 20px;
+}

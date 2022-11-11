@@ -1,0 +1,58 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+.class1{
+    font-size: 7em;
+}
+
+.class2{
+    font-size: 6em;
+}
+
+.class3{
+    font-size: 5em;
+}
+
+.class4{
+    font-size: 4em;
+}
+
+#id1{
+    color: #ff0000;
+}
+
+#id6{
+    color: #123456;
+}
+
+#id2{
+    color: #0000ff;
+}
+
+#id3{
+    color: #37f8d3;
+}
+
+#id4{
+    color: #ff00ff;
+}
+
+#id5{
+    color: #000000;
+}
+
+#id7{
+    color: #324890;
+}
+
+#pp{
+    font-size: 5cm;
+}

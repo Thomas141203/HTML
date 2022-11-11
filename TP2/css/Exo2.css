@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: blue;
+    border: red solid;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#id2{
+    list-style-type: circle;
+}
+#id3{
+    list-style-image: url('../images/BoutonVert.gif');
+    background-color: pink;
+}
+blockquote{
+    font-style: italic;
+}
+.class1{
+    background-color: olive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

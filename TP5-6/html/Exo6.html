@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Exercice 6</title>
+		<link rel='stylesheet' type='text/css' href='../css/Exo6.css'/>
+	</head>
+	
+	<body>
+		<form id="formulaire" action="" onsubmit = "return valider();">
+		<h3>Inscription à la Newsletter</h3>
+		<p class="blabla">Veuillez renseigner les champs de ce formulaire.</p>
+			<div class="gauche">
+			<fieldset>
+				<legend>Nom et adresse</legend>
+				<p>
+					<span class="label"><label for="nom">Nom:</label></span>
+					<span class="controle"><input type="text" class="text" id="nom" /></span>
+				</p>
+				<p>
+					<span class="label"><label for="prenom">Pr&eacute;nom:</label></span>
+					<span class="controle"><input type="text" class="text" id="prenom" /></span>
+				</p>
+				<p>
+					<span class="label">
+					<label for="adresse">Adresse:</label><br />
+				(Num&eacute;ro et rue)
+				</span>
+					<span class="controle"><input type="text" class="text" id="adresse" /></span>
+				</p>
+				<p>
+					<span class="label">
+					<label for="ville">Ville:</label><br />
+					(Ville et code postal)
+			</span>
+			<span class="controle"><input type="text" class="text" id="ville" /></span>
+				</p>
+				<p>
+					<span class="label"><label for="telephone">T&eacute;l&eacute;phone:</label></span>
+					<span class="controle"><input type="text" class="text" id="telephone" /></span>
+				</p>
+			</fieldset>
+		</div><!-- .gauche -->
+
+		<div class="droite">
+		<fieldset>
+			<legend>Inscription à la Newsletter</legend>
+
+				<p>
+					<span class="label">Confirmer l'inscription:</span>
+					<span class="controle"><br />
+					<input type="checkbox" class="bouton" checked="checked" id="auth1" /><label
+					for="auth1">Je souhaite recevoir la newsletter de Machin</label>
+					</span>
+					<span class="controle"><br />
+					<input type="checkbox" class="bouton" id="auth2" /><label for="auth2">J'accepte
+					de recevoir des spams des partenaires de Machin</label>
+					</span>
+				</p>
+				<p>
+					<span class="label">Format de la newsletter:</span>
+					<span class="controle"><br />
+					<input type="radio" class="bouton" name="format" checked="checked" id="format1" /><label for="format1">Recevoir la newsletter au format HTML (recommandé)</label>
+					</span>
+					<span class="controle"><br />
+					<input type="radio" class="bouton" name="format" id="format2" /><label for="format2">Recevoir la newsletter au format texte brut</label>
+					</span>
+				</p>
+			</fieldset>
+		</div><!-- .droite -->
+			<p class="submit">
+				<input type="submit" value="S'inscrire à la Newsletter" />
+			</p>
+		</form>
+	</body>
+</html>

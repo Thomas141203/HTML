@@ -1,0 +1,21 @@
+h1{
+    width: 15%;padding: 20px;
+    margin: auto;
+    text-align: center;
+    border: dotted red;
+}
+table{
+    border: solid;
+    border-collapse: collapse;
+    font-size: 100px;
+}
+td{
+    padding: 0px;
+    border: solid;
+    border-width: 1px;
+}
+table table td{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}

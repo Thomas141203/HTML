@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Exercice 4</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='../css/Exo4.css'/>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><label for="requis">Texte Requis</label></td>
+                <td><input type="text" name="requis" id="requis"></td>
+            </tr>
+            <tr>
+                <td><label for="facultatif">Texte facultatif</label></td>
+                <td><input type="text" name="facultatif" id="facultatif"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Adresse E-mail</label></td>
+                <td><input type="email" name="mail" id="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="url">Adresse URL</label></td>
+                <td><input type="url" name="url" id="url" value="s"></td>
+            </tr>
+            <tr>
+                <td><label for="postale">Adresse postale</label></td>
+                <td><input type="text" name="postale" id="postale"></td>
+            </tr>
+            <tr>
+                <td><label for="naissance">Naissance (jour/ heure)</label></td>
+                <td><input type="datetime" name="naissance" id="naissance" value="jj/mm//aaaa --:--"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Nombre entre 3 et 10</label></td>
+                <td><input type="text" name="nombre" id="nombre" min="3" max="10" value="15"></td>
+            </tr>
+        </table>
+        <button>Valider</button>
+    </body>
+</html>

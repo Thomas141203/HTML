@@ -1,0 +1,32 @@
+div{
+    word-spacing: 15px;
+    letter-spacing: 2px;
+}
+#id1{
+    font-weight: bold;
+}
+#id2{
+    text-decoration: underline;
+}
+#id3{
+    color: red;
+    font-style: italic;
+}
+#id4{
+    text-decoration: line-through;
+}
+#id5{
+    font-size: xx-large;
+}
+#id6{
+    font-size: xx-small;
+}
+#id7{
+    vertical-align: super;
+}
+#id8{
+    vertical-align: sub;
+}
+#id9{
+    letter-spacing: 15px;
+}

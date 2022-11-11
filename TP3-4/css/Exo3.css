@@ -1,0 +1,45 @@
+table{
+    text-align: center;
+    border: solid red 1px;
+    border-collapse: collapse;
+}
+th{
+    border: solid red;
+}
+td{
+    border: solid red;
+}
+.class1{
+    background-color: yellow;
+}
+.class2{
+    color: fuchsia;
+    text-decoration: underline;
+}
+.class3{
+    background-color: black;
+}
+.class4{
+    background-color: cyan;
+}
+.class5{
+    color: white;
+    background-color: fuchsia;
+}
+#id1{
+    text-align: center;
+    border: solid red;
+    background-color: cyan;
+    width: 3%;
+}
+#id2{
+    text-align: center;
+    border: solid red;
+    background-color: yellow;
+    width: 3%;
+}
+#id3{
+    background-color: grey;
+    text-align: center;
+
+}

@@ -1,0 +1,35 @@
+h1{
+    background-color: black;
+    color: white;
+    width: 60%;
+}
+dl{
+    background-color: orange;
+    margin-left: 10%;
+    width: 80%;
+}
+.class1{
+    color: blue;
+    text-decoration: underline;
+}
+.class2{
+    color: magenta;
+    text-decoration: underline;
+}
+body{
+    background-color: silver;
+}
+li{
+    padding-left: 15px;
+    color: white;
+    background-color: rgb(63, 214, 63);
+}
+ul{
+    list-style-type: square;
+    background-color: rgb(83, 83, 83);
+}
+span{
+    font-weight: bold;
+    color: black;
+    text-decoration: overline;
+}

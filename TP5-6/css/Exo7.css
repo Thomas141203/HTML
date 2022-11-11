@@ -1,0 +1,36 @@
+body{
+    background-color: silver;
+}
+h1{
+ color:red;
+ text-align : center;
+}
+hr{
+ height: 5px;
+ text-align: center;
+ width: 50%;
+ background-color:red;
+}
+
+#p1{
+    text-align : center;
+}
+.p2{
+    font-weight : bold;
+    border-bottom-style: none;
+}
+.p3{
+    font-weight : bold;
+    border-top-style: none;
+}
+table{
+    border-collapse: collapse;
+text-align: center;
+}
+td{
+    border: blue solid 2px;
+}
+textarea{
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
